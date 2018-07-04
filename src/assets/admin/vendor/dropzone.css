@@ -1,0 +1,67 @@
+.imgUpload .img-ul-file-upload {
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-bottom: 15px;
+    border: 3px dashed #eee !important;
+    background-color: transparent;
+    border: none;
+    min-height: 125px;
+    text-align: center;
+    padding: 0;
+    margin-top: 30px;
+}
+.imgUpload .img-ul-upload {
+    color: #ec008c !important;
+    font-weight: 700;
+    display: table-cell;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+.imgUpload .img-ul-upload {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.imgUpload .img-ul-clear {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #625252 !important;
+}
+
+.imgUpload .img-ul-drag-box-msg {
+    color: purple !important;
+    padding-top: 30px !important;
+}
+
+.imgUpload .img-ul-container {
+    background-color: transparent !important;
+}
+.imgUpload .img-ul-x-mark {
+    background-color: #fc4484 !important;
+    border-radius: 50% !important;
+    line-height: 24px !important; 
+}
+.imgUpload .img-ul-button {
+    text-transform: none !important;
+    float: none !important;
+    display: inline-block !important;
+    padding: 0;
+    margin-bottom: 0px !important;
+    padding-top: 10px !important;
+}
+.profileImg {
+    border-radius: 50%;
+    border: 3px solid #f6ebeb;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.alert {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    max-width: 500px;
+    border-radius: 0;
+    opacity: 1;
+}

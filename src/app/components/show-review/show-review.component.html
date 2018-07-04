@@ -1,0 +1,76 @@
+<div class="user-information">
+  <div class="user-summary-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 user-summary-main">
+              <div class="user-summary-overview row">
+                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-1">
+                  <div class="user-picture">
+                      <img data-profile-image="" class="user-picture__img" src="../assets/img/profile-img.png" alt="profile image">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <div class="user-summary-info">
+                        <h1 class="user-summary-info__user-name">
+                            {{authService.currentUser.name}}
+                        </h1>
+                        <div class="user-summary-gender-location">
+                            <div class="user-summary-gender" data-user-gender=""></div>
+                            <div class="user-summary-location" data-user-location="">
+                                India
+                            </div>
+                        </div>
+                        <div class="user-summary-info__description"></div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-6">
+                  <div class="user-summary-stats">                            
+                    <div class="user-reviews-stats">
+                        <div class="user-reviews-container" *ngFor='let data of reResult'>
+                            <span class="user-reviewcount" data-count="2">{{data.assignedReviews.length}}</span>
+                            <a href="#" class="user-reviews-label icon icon-star link">Reviews</a>
+                        </div>
+                        <div class="user-reviews-container">
+                            <span class="user-reviews-readcount" data-count="0">0</span>
+                            <span class="user-reviews-label icon icon-user" data-tooltip="" data-translation="userreviewstotalstats/reads" data-id="2">Reads</span>
+                        </div>
+                        <div class="user-reviews-container">
+                            <span class="user-reviews-usefulcount" data-count="0">0</span>
+                            <span class="user-reviews-label icon icon-thumbs-up" data-tooltip="" data-translation="userreviewstotalstats/usefuls" data-id="3">Useful</span>
+                        </div>                         
+                    </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="reviews-info">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card-area"></div>  
+    <div class="add-rating">
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label class="full star5" for="star5" title="Awesome - 5 stars"></label>
+        <input type="radio" id="star4half" name="rating" value="4.5" />
+        <label class="half star4half" for="star4half" title="Pretty good - 4.5 stars"></label>
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label class = "full star4" for="star4" title="Pretty good - 4 stars"></label>
+        <input type="radio" id="star3half" name="rating" value="3.5" />
+        <label class="half star3half" for="star3half" title="Meh - 3.5 stars"></label>
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label class="full star3" for="star3" title="Meh - 3 stars"></label>
+        <input type="radio" id="star2half" name="rating" value="2.5" />
+        <label class="half star2half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label class="full star2" for="star2" title="Kinda bad - 2 stars"></label>
+        <input type="radio" id="star1half" name="rating" value="1 and a half" />
+        <label class="half star1half" for="star1half" title="Meh - 1.5 stars"></label>                      
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label class = "full star1" for="star1" title="Sucks big time - 1 star"></label>
+    </div>   
+  </div>
+</div>
+</div>
+</div>

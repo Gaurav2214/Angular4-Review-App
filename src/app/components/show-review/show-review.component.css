@@ -1,0 +1,22 @@
+.user-information{padding-top: 60px; border-top: 1px solid #ccc;}
+.user-reviews-stats {display: flex; position: relative; align-items: center;justify-content: space-around;}
+.user-reviews-container {display: flex;align-items: center;flex-direction: column;flex: 1;font-size: 40px;}
+.user-reviews-label {font-size: 12px;font-weight: 700;cursor: pointer;border-bottom: 1px dashed;}
+.card {border-radius: 5px;background-color: #fff; margin: 16px 0; position: relative;}
+.reviews-info{padding: 50px 10px;background: #f2f2f2;margin-top: 60px;}
+.review-card {padding: 24px 24px 0;display: flex;flex-direction: row; width: 100%;}
+.reviewForComp{margin: 10px 0px 0px 25px;}
+.user-section {width: 112px;margin-right: 16px;word-break: break-word;}
+.user-info {display: flex;color: #292929;margin-bottom: 8px;}
+.user-info-image {border-radius: 50%;width: 48px; height: 48px;margin-right: 16px; margin-bottom: 16px;}
+.user-details { margin-bottom: 8px;}
+.user-name {font-size: 14px;margin: 0;line-height: 20px;font-weight: 700;flex-basis: 100%; color: #292929;}
+.user-review-count {color: #7e7e7e;font-size: 14px;line-height: 16px;}
+.pro-img{display: inline-block;}
+.add-rating{display: none;}
+.star-rating-5 label{color: #07724e;}
+.star-rating-4 label{color: #3ea15f;}
+.star-rating-3 label{color: #e6fc6b;}
+.star-rating-2 label{color: #ce721c;}
+.star-rating-1 label{color: #f83535;}
+.show-rating > label:hover{color: transparent;}
